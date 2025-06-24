@@ -614,6 +614,7 @@ export function Conversation({ agentType, onBack }: ConversationProps) {
             </div>
             <div className="text-gray-500">15:00</div>
           </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://media.licdn.com/dms/image/v2/D4E03AQHcwKNPXEk7aQ/profile-displayphoto-shrink_800_800/B4EZbYBxJVHcAc-/0/1747381064790?e=1756339200&v=beta&t=XMqdL3p4LcSx_bXhomKNhibaH-9RAeu_-wjW394r5oA"
             alt="Victor Ferry"
@@ -631,6 +632,7 @@ export function Conversation({ agentType, onBack }: ConversationProps) {
           <div className="flex justify-center lg:justify-start lg:pl-8 relative">
             <Card className="overflow-hidden w-80 h-80 victor-card border-blue-200 shadow-xl relative rounded-full">
               <div className="h-full w-full relative rounded-full overflow-hidden">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/char.png"
                   alt={agentConfig.name}
@@ -885,6 +887,7 @@ export function Conversation({ agentType, onBack }: ConversationProps) {
 
           <div className="flex flex-col items-center py-6">
             <div className="relative w-20 h-20 rounded-full overflow-hidden mb-4 border-3 border-blue-300 shadow-lg">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://media.licdn.com/dms/image/v2/D4E03AQHcwKNPXEk7aQ/profile-displayphoto-shrink_800_800/B4EZbYBxJVHcAc-/0/1747381064790?e=1756339200&v=beta&t=XMqdL3p4LcSx_bXhomKNhibaH-9RAeu_-wjW394r5oA"
                 alt="Victor Ferry"

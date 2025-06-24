@@ -13,10 +13,8 @@ import {
 import { Conversation } from "@/components/conversation";
 import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
-import Image from "next/image";
 import { Toaster } from "sonner";
 import { Inter, Poppins } from "next/font/google";
-import { cn } from "@/lib/utils";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -93,6 +91,7 @@ export default function Home() {
           {/* Header */}
           <header className="flex items-center justify-between mb-12">
             <div className="flex items-center space-x-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://media.licdn.com/dms/image/v2/D4E03AQHcwKNPXEk7aQ/profile-displayphoto-shrink_800_800/B4EZbYBxJVHcAc-/0/1747381064790?e=1756339200&v=beta&t=XMqdL3p4LcSx_bXhomKNhibaH-9RAeu_-wjW394r5oA"
                 alt="Victor Ferry"
@@ -248,6 +247,7 @@ export default function Home() {
         >
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-200">
             <div className="flex items-center justify-center gap-4 mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://media.licdn.com/dms/image/v2/D4E03AQHcwKNPXEk7aQ/profile-displayphoto-shrink_800_800/B4EZbYBxJVHcAc-/0/1747381064790?e=1756339200&v=beta&t=XMqdL3p4LcSx_bXhomKNhibaH-9RAeu_-wjW394r5oA"
                 alt="Victor Ferry"
